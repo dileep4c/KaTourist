@@ -1,0 +1,231 @@
+
+body{
+    color:black;
+    background-color: white;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+/*header section*/
+.header_section{
+    display:flex;
+    background-color: rgb(198, 235, 246);
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.btn{
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+}
+
+button{
+    background-color:rgb(198, 235, 246);
+    border: none;
+    
+}
+
+.login-btn{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+   color:black;
+}
+a.login-btn:hover{
+    text-decoration: underline;
+}
+/*login*/
+.main-form{
+    display:flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.form-box {  
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: .85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover {
+  background-color: #005ce6;
+}
+ 
+/*place section*/
+.place-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left:5rem;
+    padding-right:5rem; 
+    padding-top:50px;
+}
+
+#place_img{
+    width: 376px;
+    height: 276px;
+}
+.place1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.place_each{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+#place_text{
+    margin: 0;
+    border: 0;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.place_link{
+    text-decoration: none;
+    
+}
+/*Footer*/
+.container{
+    background-color:  rgb(198, 235, 246);
+    padding: 5px;
+}
+p.copyright{
+    color: black;
+    font-size: larger;
+}
+a.border-bottom{
+    color: black;
+    text-decoration: none;
+}
+a.border-bottom:hover {
+    text-decoration: underline;
+    color: red;
+}
+a.border-bottom:active {
+    text-decoration: underline;
+}
+/*Footer end*/
+/*About*/
+.team{
+    padding-top: 100px;
+}
+h1.team_name{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.team_members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.members{
+    padding: 15px;
+    background-color: rgb(241, 241, 227);
+    margin: 5px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+a.email{
+    color: black;
+    text-decoration: none;
+}
+a.email:hover {
+    text-decoration: underline;
+    color: blue;
+}
+/*About end*/
+.place_each_page{
+    padding: 100px;
+}
+h1.text_main{
+    text-align:center;
+}
+/*place*/
+.text_place{
+    padding-top: 100px;
+}
+ 
+    
+
